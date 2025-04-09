@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+    padding: 25px;
+}
+
+#btn1{
+    width: 200px;
+    height: 50px;
+    background-color: #4E8D7C;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+#btn2 {
+    width: 200px;
+    height: 50px;
+    background-color: #F64B3C;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+#btn3 {
+    width: 200px;
+    height: 50px;
+    background-color: #EF8D32;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+}
